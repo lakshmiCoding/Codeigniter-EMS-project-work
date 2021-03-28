@@ -1,0 +1,234 @@
+
+html,body,h1,h2,h3,h4,h5 {
+  font-family: 'Roboto Slab' !important;
+}
+
+a {
+  text-decoration:none;
+}
+
+/* Style inputs, select elements and textareas */
+input[type=text], input[type=date], input[type=password], select, textarea{
+  height: 45px;
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  display: inline-block;
+  /* float: left; */
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  /* float: left; */
+  clear: left;
+  width: 100px;
+  text-align: left;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+.btn{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  background-color: #f2fbff;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+.leave-table table tr td{
+  border: none;
+    width: 240px;
+    height: 60px;
+    font-size: 15px;
+}
+
+.leave-table table tr td h4{
+  font-size: 15px;
+    font-weight: 600;
+    text-align: left;
+    font-family: cursive;
+}
+
+.view-detail {
+  float: left;
+  margin-top: 25px;
+  left: 110px;
+  text-decoration: none;
+  background: cornflowerblue;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.take-action {
+  background-color: #ffffff;
+  float: right;
+  right: 204px;
+    margin-top: 19px;
+  width: 445px;
+  border: 1px solid #ffffff;
+  position: relative;
+  padding: 11px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.take-action input[type=text], select{
+  /* height: 39px;
+    width: 180px;
+    margin-top: 10px; */
+}
+
+.take-action input[type=submit]{
+  float: left;
+    height: 30px;
+    margin-top: 17px;
+    padding: 5px 15px 15px 15px;
+}
+
+
+
+
+/*  for calendar style */
+
+
+table{
+    /* border: 15px solid #2196f3; */
+    border-collapse:collapse;
+    background-color: white;
+    margin-top: 35px;
+    /* overflow: auto;
+    width: 100%;
+    display: block; */
+    }
+    /* tr{
+      width:100%;
+    } */
+    td{
+    padding: 15px;
+    width: 170px;
+    height: 70px;
+    text-align: center;
+    border: 1px solid #e2e0e0;
+    font-size: 15px;
+    text-transform: capitalize;
+    }
+    th{
+    height: 50px;
+    padding-bottom: 8px;
+    background: #0c7fda;
+    font-size: 16px;
+    color: floralwhite;
+    text-transform: capitalize;
+    }
+    .prev_sign a, .next_sign a{
+    color:white;
+    text-decoration: none;
+    }
+    tr.week_name{
+    font-size: 16px;
+    font-weight:400;
+    color:red;
+    width: 10px;
+    background-color: #efe8e8;
+    }
+    .highlight{
+    background-color:#25BAE4;
+    color:white;
+    /*height: 27px;*/
+    height:initial;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .calender .days td
+    {
+        width: 80px;
+        height: 80px;
+    }
+    .calender .hightlight
+    {
+        font-weight: 600px;
+    }
+    .calender .days td:hover
+    {
+        background-color: #DEF;
+    }
+    th a{
+      text-decoration:none;
+    }
+    .content{
+      font-size: 13px;
+      color: crimson;
+    }
+
+.notify {
+  float: right;
+  padding: 10px;
+  position: relative;
+}
+
+.notify .badge {
+  position: absolute;
+    top: -4px;
+    right: 0px;
+    padding: 0px 7px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: smaller;
+} 
